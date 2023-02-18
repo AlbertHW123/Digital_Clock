@@ -1,0 +1,71 @@
+body{
+    /*use margin: 0 to remove default margin*/
+    margin: 0;
+    font-family: sans-serif;
+    /*use display: flex to centralize*/
+    display: flex;
+    /*bring back columns*/
+    flex-direction: column;
+    /*horizontal centralization*/
+    align-items: center;
+    height: 100vh;
+    /*vertical centralization*/
+    justify-content: center;
+    /*add background*/
+    background: url("https://images.unsplash.com/photo-1502657877623-f66bf489d236?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80");
+    background-size: cover;
+    overflow: hidden
+}
+
+h2{
+    /*capitalize everything*/
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+
+.clock{
+    display: flex;
+}
+
+
+.clock div{
+    margin: 5px;
+    position:relative;
+}
+
+
+.clock span{
+    width: 100px;
+    height: 80px;
+    background: slateblue;
+    opacity: .8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: darkblue;
+    opacity: 0.8;
+}
+
+
+.clock #aaa {
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: green;
+}
